@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>About Us</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.1.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel = "icon" href = "images/icon.png">
+  </head>
+  <body class = "text-center">
+      <div class="jumbotron" style = "background:url(images/wood.jpg);border-radius:0;">
+        <div class=" d-flex w-90 h-100 p-2 mx-auto flex-column">
+        <header class="masthead mb-auto ">
+              <div style = "margin-top:0">
+                 <h3 class="masthead-brand col-lg-5" id = "header" style = "color:white;text-align:left;"></h3>
+                    <script>
+                      var i = 0;
+                      var txt = 'About Us'; /* The text */
+                      var speed = 120; /* The speed/duration of the effect in milliseconds */
+                      
+                      function typeWriter() {
+                        if (i < txt.length) {
+                          document.getElementById("header").innerHTML += txt.charAt(i);
+                          i++;
+                          setTimeout(typeWriter, speed);
+                        }
+                      }
+                      window.onload = typeWriter
+                    </script>
+                    <nav class="nav nav-masthead justify-content-center" style = "margin-right:0;">
+                      <a class="nav-link" href="index.html">Home</a>
+                      <a class="nav-link" href="problems.html">Problem</a>
+                      <a class="nav-link " href="feature.html">Features</a>
+                      <a class="nav-link active" href="#">About Us</a>
+                      <a class="nav-link" href="contact.html">Contacts</a>
+                    </nav>
+              </div>
+        </header>
+          <h1 class="display-4" style = "text-align: center;color:white; margin-top:50px"> <strong>About Us</strong></h1>
+      </div>
+    </div>
+    <div class= "container">
+      <div class = "container">
+        <div class = "row">
+          <div class = "col-md-4">
+            <img src = "images/Sragvi.png" style = "border-radius: 30%"  width = "30%" height = "80%" />
+          </div>
+          <div class = "col-md-7">
+            <p>My name is Sragvi Vadali and I am cuurently in the ninth grade. 
+            I am interested in computer programing, cuurent taking AP Computer 
+            Science Priniples. I also and a part of many clubs regarding 
+            engineering, such as Vex Robotics. From the beginning of the year, 
+            I was in the gael force robotics 5327 B team. This is a major honor 
+            since only a handful are picked in each team. I decided to do this 
+            project because I went through the pain of having too less parts, 
+            and I don't want others to feel that pain.  </p>
+          </div>
+        </div>
+        <div class = "row">
+          <div class = "col-md-7">
+            <p>My name in Shreejith Ravisankar and I am
+            currently a student in 10th grade at Dublin High
+            school taking the engineering pathway.  
+            In the future, I plan on being an engineer, 
+            specifically a robotics engineer. I am in the robotics 
+            club, where we build robots and make them perform certain
+            tasks at international level tournaments. I hope, in the 
+            future to come up with an invention that would 
+            revolutionize the world. Hopefully, My invention is 
+            something that everybody would use, but as the world is 
+            changing quickly, so are the inventions and innovations.
+            Personal I love building and problem-solving. Math word 
+            problems are where I jam. Even though sometimes it gets 
+            too hard, I still go back at it and try again.</p>
+          </div>
+          <div class = "col-md-4">
+            <img src = "images/Shree.png" style = "border-radius: 30%"  width = "30%" height = "80%" />
+          </div>
+        </div>
+        <div class = "row">
+          <div class = "col-md-4">
+            <img src = "images/Vedant.png" style = "border-radius: 30%"  width = "30%" height = "80%"/>
+          </div>
+          <div class = "col-md-7" width = "30%" height = "2000px">
+            <p>I am currently a freshman at Dublin High School. My name is Vedant Agrawal, and I recently turned 14 years old. I was selected as an intern for a VEX Robotics Competition team, 5327C, at the end of 8th grade. Throughout the summer, I went to their meets and contributed to the team, and when the school year started, I was accepted as an official part of their team. In addition to that, I am currently taking Computer Science Principles as my elective. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html> 

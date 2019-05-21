@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contacts</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.1.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel = "icon" href = "images/icon.png">
+  </head>
+  <body class = "text-center">
+      <div class="jumbotron" style = "background:url(images/wood.jpg);border-radius:0;">
+        <div class=" d-flex w-90 h-100 p-2 mx-auto flex-column">
+        <header class="masthead mb-auto ">
+              <div style = "margin-top:0">
+                 <h3 class="masthead-brand col-lg-5" id = "header" style = "color:white;text-align:left;"></h3>
+                    <script>
+                      var i = 0;
+                      var txt = 'Contacts'; /* The text */
+                      var speed = 120; /* The speed/duration of the effect in milliseconds */
+                      
+                      function typeWriter() {
+                        if (i < txt.length) {
+                          document.getElementById("header").innerHTML += txt.charAt(i);
+                          i++;
+                          setTimeout(typeWriter, speed);
+                        }
+                      }
+                      window.onload = typeWriter
+                    </script>
+                    <nav class="nav nav-masthead justify-content-center" style = "margin-right:0;">
+                      <a class="nav-link" href="index.html">Home</a>
+                      <a class="nav-link" href="problems.html">Problem</a>
+                      <a class="nav-link " href="feature.html">Features</a>
+                      <a class="nav-link " href="about_us.html">About Us</a>
+                      <a class="nav-link active" href="#">Contacts</a>
+                    </nav>
+              </div>
+        </header>
+          <h1 class="display-4" style = "text-align: center;color:white; margin-top:50px"> <strong>Contacts</strong></h1>
+      </div>
+    </div>
+    <div class= "container">
+      <div class = "container">
+      <div class = "row">
+        <div class = "col-md-6" style = "text-align:center">
+          <h6>Location: </h6>
+            <p>
+                Dublin, California <div>94568</div>
+            <p style = "margin-top:5%">Reach us at:</p>
+            <div style = "margin-bottom: 5%">
+                <a style = "color: rgb(112,66,20)" href = "https://cybatran.github.io/portfolio" target = "_blank">Sragvi Vadali</a>
+                : <a style = "color:rgb(0,0,15)" href = "mailto:reachsragvi@gmail.com">reachsragvi@gmail.com</a>
+            </div>
+             <div style = "margin-bottom: 5%">
+                <a style = "color: rgb(112,66,20)" href = "https://sites.google.com/view/ravisankarshreejithportfolio/home" target = "_blank">Shreejith Ravisankar</a>
+                : <a style = "color:rgb(0,0,15)" href = "mailto: shreedude101@gmail.com"> shreedude101@gmail.com</a>
+            </div>
+             <div style = "margin-bottom: 5%">
+                <a style = "color: rgb(112,66,20)" href = "https://vedagr94076.github.io/portfolio/index.html" target = "_blank">Vedant Agrawal</a>
+                : <a style = "color:rgb(0,0,15)" href = "mailto:agrawal4076@mydusd.org">agrawal4076@mydusd.org</a> 
+            </div>
+          </div>
+        <!--This is the code for the embeded map-->
+        <div class = "col-md-4">
+          <iframe width="600" height="500" id="gmap_canvas" 
+            src="https://maps.google.com/maps?q=dublin%20ca&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://www.crocothemes.net"></a></div><style>.mapouter{text-align:right;height:500px;width:600px;}
+            .gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+        </div>
+    </div>
+    </div>
+</body>
+</html> 

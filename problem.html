@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Problem</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.1.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel = "icon" href = "images/icon.png">
+  </head>
+  <body class = "text-center">
+      <div class="jumbotron" style = "background:url(images/wood.jpg);border-radius:0;">
+        <div class=" d-flex w-90 h-100 p-2 mx-auto flex-column">
+        <header class="masthead mb-auto ">
+              <div style = "margin-top:0">
+                 <h3 class="masthead-brand col-lg-5" id = "header" style = "color:white;text-align:left;"></h3>
+                    <script>
+                      var i = 0;
+                      var txt = 'Problem'; /* The text */
+                      var speed = 120; /* The speed/duration of the effect in milliseconds */
+                      
+                      function typeWriter() {
+                        if (i < txt.length) {
+                          document.getElementById("header").innerHTML += txt.charAt(i);
+                          i++;
+                          setTimeout(typeWriter, speed);
+                        }
+                      }
+                      window.onload = typeWriter
+                    </script>
+                    <nav class="nav nav-masthead justify-content-center" style = "margin-right:0;">
+                      <a class="nav-link" href="index.html">Home</a>
+                      <a class="nav-link active" href="#">Problem</a>
+                      <a class="nav-link" href="feature.html">Features</a>
+                      <a class="nav-link" href="about_us.html">About Us</a>
+                      <a class="nav-link" href="contacts.html">Contacts</a>
+                    </nav>
+              </div>
+        </header>
+          <h1 class="display-4" style = "text-align: center;color:white; margin-top:50px"> <strong>Problem</strong></h1>
+      </div>
+    </div>
+    <div class= "container">
+      <div class = "container">
+        <p style = "font-size: 130%">
+          Many people have projects and/or tasks involving the need for small 
+          parts. This leads to them not knowing how much they have of each part. 
+          This leads to them to over buying or not buying enough of a part in 
+          order to do the task. This is an important issue because of the idea 
+          that they will spend too much money on that tool, having too much for
+          a waste. They also could have loot less and they will not be able to 
+          complete that project. The goal for the project is to efficiently 
+          present the amount of small parts in each compartment. This will 
+          leads to them knowing how many items they have, knowing if they need
+          to buy more or not. Another issue that we are trying to solve is the
+          idea to have an affordable tool organizer that will be able to be 
+          commercial. Another issue that we this is a new invention that no 
+          other product can offer. This means that this is a new idea and will 
+          help a new group of people. No corporation believed that this was an 
+          issue, however, in our studies, discovered that many people will enjoy
+          the idea and what the creation to be around.
+        </p>
+      </div>
+    </div>
+</body>
+</html> 

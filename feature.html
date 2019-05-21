@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Features</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.1.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel = "icon" href = "images/icon.png">
+  </head>
+  <body class = "text-center">
+      <div class="jumbotron" style = "background:url(images/wood.jpg);border-radius:0;">
+        <div class=" d-flex w-90 h-100 p-2 mx-auto flex-column">
+        <header class="masthead mb-auto ">
+              <div style = "margin-top:0">
+                 <h3 class="masthead-brand col-lg-5" id = "header" style = "color:white;text-align:left;"></h3>
+                    <script>
+                      var i = 0;
+                      var txt = 'Features'; /* The text */
+                      var speed = 120; /* The speed/duration of the effect in milliseconds */
+                      
+                      function typeWriter() {
+                        if (i < txt.length) {
+                          document.getElementById("header").innerHTML += txt.charAt(i);
+                          i++;
+                          setTimeout(typeWriter, speed);
+                        }
+                      }
+                      window.onload = typeWriter
+                    </script>
+                    <nav class="nav nav-masthead justify-content-center" style = "margin-right:0;">
+                      <a class="nav-link" href="index.html">Home</a>
+                      <a class="nav-link" href="problems.html">Problem</a>
+                      <a class="nav-link active" href="#">Features</a>
+                      <a class="nav-link" href="about_us.html">About Us</a>
+                      <a class="nav-link" href="contacts.html">Contacts</a>
+                    </nav>
+              </div>
+        </header>
+          <h1 class="display-4" style = "text-align: center;color:white; margin-top:50px"> <strong>Features</strong></h1>
+      </div>
+    </div>
+    <div class= "container">
+      <div class = "container">
+        <div class = "row">
+          <div class = "col-md-6">
+            <h1>Arduino Load Cell</h1>
+            <img src = "images/load_cell.jpg" />
+          </div>
+          <div class = "col-md-6">
+            <p>It reads the information from the Load Cell, amplifies the signals and then sends it to the Arduino for processing. Common Load cells have four-wire to connect the HX711 to a microcontroller like the Arduino. To connect the HX711 to the Arduino you only need 2 pins (Clock and Data).</p>
+          </div>
+        </div>
+        <div class = "row">
+          <div class = "col-md-6" width = "10px" height = "10px">
+            <h1>Arduino Nano</h1>
+            <p>Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online.</p>
+          </div>
+          <div class = "col-md-6">
+            <img src = "images/arduino_nano.jpg" />
+          </div>
+        <div class = "row">
+          <div class = "col-md-6">
+            <h1>Limit Switches</h1>
+            <img src = "images/limit_switch.jpg" width = "50%" />
+          </div>
+          <div class = "col-md-6" width = "10px" height = "10px">
+            
+            <p>A  limit switch is a switch operated by the motion of a machine part or presence of an object. They are used for controlling machinery as part of a control system, as a safety interlocks, or to count objects passing a point.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html> 
